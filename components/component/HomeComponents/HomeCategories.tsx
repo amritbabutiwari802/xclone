@@ -51,7 +51,7 @@ const Card = (props: any) => {
     <div className="relative">
       <img
         src={props.ismobile ? props.data.mobilebgurl : props.data.largebgurl}
-        className="  object-cover object-left h-[160px] md:h-[500px] md:h-[600px] "
+        className="  object-cover w-full  h-[160px] md:h-[500px] md:h-[600px] "
       />
     </div>
   );
