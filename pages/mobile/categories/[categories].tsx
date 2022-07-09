@@ -9,7 +9,9 @@ const Categories = (props: Props) => {
         <img src={data.img} className="w-full h-[200px] object-cover" />
       </div>
 
-      <div className="grid grid-cols-2 mt-10 gap-2">
+      <h1 className="text-lg text-neutral-700 mt-10 px-4">Books</h1>
+
+      <div className="grid grid-cols-2 mt-2 gap-2 ">
         <Card data={data.data[0]} />
         <Card data={data.data[0]} />
         <Card data={data.data[0]} />
